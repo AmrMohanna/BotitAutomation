@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="31.189" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="F01_login | user login" name="user can login with valid data" time="30.673">
+<system-out><![CDATA[
+Given Go to login page......................................................passed
+When User fill valid data and click login...................................passed
+And user click on catalog...................................................passed
+And user click on item......................................................passed
+And user find product and click on edit.....................................passed
+And user change the price...................................................passed
+And user click save.........................................................passed
+Then price should save and navigate to catlog page..........................passed
+And price at grid updated with new value....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
